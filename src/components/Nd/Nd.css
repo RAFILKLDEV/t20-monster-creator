@@ -1,0 +1,30 @@
+.ndComponent {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.kek * {
+    font-family: "Benguiat";
+    background: inherit;
+    border: inherit;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--redt20)
+}
+
+input.name {
+    width: 100%;
+    font-size: 1.8rem;
+}
+
+input.nd {
+    width: 10%;
+}
+
+input.desc {
+    color: inherit;
+    width: 100%;
+    height: 200px;
+}

@@ -1,0 +1,14 @@
+.EstatisticaComponent {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+}
+
+#label {
+    color: var(--redt20);
+    font-weight: 600;
+}
+
+#number {
+    width: 8%;
+}

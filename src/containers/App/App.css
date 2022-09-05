@@ -1,0 +1,57 @@
+@font-face{
+  font-family: "Benguiat";
+  src: url("../../fonts/Benguiat.ttf") format("truetype");
+}
+
+.App {
+  --redt20: rgb(168, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://www.publicdomainpictures.net/pictures/60000/nahled/old-paper-texture-background-1380404417tNE.jpg );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Benguiat";
+}
+
+.monsterCreator {
+  border: solid var(--redt20);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  min-height: 600px;
+}
+
+#noBg {
+  background-color: inherit;
+  border: inherit;
+  
+}
+
+#inputMod {
+  background-color: inherit;
+  border: inherit;
+  width: 8%;
+}
+
+#green {
+  color: green;
+}
+
+#red {
+  color: red;
+}
+
+#yellow {
+  color: yellow;
+}
+
+.card *{
+  margin-bottom: 2px;
+}
+
+.card {
+  border-bottom: solid var(--redt20);
+}
