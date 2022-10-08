@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
   font-family: "Benguiat";
   src: url("../../fonts/Benguiat.ttf") format("truetype");
 }
@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://www.publicdomainpictures.net/pictures/60000/nahled/old-paper-texture-background-1380404417tNE.jpg );
+  background-image: url(https://www.publicdomainpictures.net/pictures/60000/nahled/old-paper-texture-background-1380404417tNE.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -21,7 +21,130 @@
   display: flex;
   flex-direction: column;
   width: 600px;
-  min-height: 600px;
+  font-size: 1.2rem;
+}
+
+#container {
+  width: 99%;
+  border-bottom: solid var(--redt20) 3px;
+  margin-bottom: 5px;
+}
+
+.container-field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+#button {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: solid var(--redt20) 2px;
+  color: var(--redt20);
+  font-weight: 900;
+  align-self: center;
+  margin: 0px 2px 0px;
+}
+
+#label {
+  color: var(--redt20);
+  font-weight: 600;
+  margin-right: 5px;
+  border-spacing: 10px;
+}
+
+#input-box {
+  border: inherit;
+  background-color: inherit;
+  font-weight: 600;
+  min-width: 20px;
+  max-width: 30px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+#desc:default {
+  border: solid var(--redt20) 2px;
+}
+
+#img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border: solid var(--redt20) 2px;
+}
+
+#input-select {
+  border: inherit;
+  background-color: inherit;
+  font-weight: 1000;
+  width: auto;
+  margin-right: 5px;
+  font-size: 1rem;
+  color: var(--redt20);
+  font-family: "Benguiat";
+}
+
+#input-atributos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+#input-number {
+  border: inherit;
+  background-color: inherit;
+  font-weight: 1000;
+  width: 45px;
+  margin-right: 5px;
+  font-size: 1rem;
+  font-family: "Benguiat";
+  text-align: center;
+  border-bottom: solid var(--redt20) 1px;
+  overflow: hidden;
+}
+
+#input-number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#input-desc {
+  border: inherit;
+  background-color: inherit;
+  font-weight: 200;
+  width: 99%;
+  height: 25px;
+  font-size: 1rem;
+  font-family: "Benguiat";
+  padding-top: 5px;
+  resize: none;
+}
+
+#input-field {
+  border: inherit;
+  background-color: inherit;
+  font-weight: 1000;
+  width: 100%;
+  height: auto;
+  margin-right: 5px;
+  font-size: 1rem;
+  font-family: "Benguiat";
+}
+
+#input-field2 {
+  border: inherit;
+  background-color: inherit;
+  font-weight: 1000;
+  width: clamp(100px, 150px, 200px);
+  margin-right: 5px;
+  font-size: 1rem;
+  font-family: "Benguiat";
+}
+
+/* .modificador {
+  font-size: 1.3rem;
 }
 
 #noBg {
@@ -34,6 +157,8 @@
   background-color: inherit;
   border: inherit;
   width: 8%;
+  margin-left: 5px;
+  height: 21px;
 }
 
 #green {
@@ -54,4 +179,4 @@
 
 .card {
   border-bottom: solid var(--redt20);
-}
+} */

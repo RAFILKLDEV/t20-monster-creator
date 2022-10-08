@@ -1,19 +1,26 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   value: 0,
-}
+  points: 0,
+};
 
 export const ndSlice = createSlice({
-  name: 'counter',
+  name: "counter",
   initialState,
   reducers: {
-    set: (state, action) => {
-        state.value = action.payload
+    setValue: (state, action) => {
+      state.value = action.payload;
+    },
+    setPoints: (state, action) => {
+      state.points++
+    },
+    setPoints2: (state, action) => {
+      state.points--
     },
   },
-})
+});
 
-export const { set } = ndSlice.actions
+export const { setValue, setPoints } = ndSlice.actions;
 
-export default ndSlice.reducer
+export default ndSlice.reducer;
